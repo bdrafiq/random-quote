@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+html,body{
+    background-color: #FAEBD7;
+    font-family: 'Redressed', cursive;
+}
+#container{
+    margin: auto;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#btn{
+    padding: 10px 18px;
+    outline: none;
+}
+#quote{
+    font-size: 2rem;
+    font-weight: 400;
+}
+@media only screen and (max-width: 600px) {
+    #container {
+      width: 350px;
+      
+    }
+  }
